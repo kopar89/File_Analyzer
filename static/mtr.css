@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f 0%, #11111b 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.others {
+    width: 200px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 10px;
+    
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    cursor: pointer;
+    
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.others:hover {
+    transform: translateY(-5px);
+    background-color: rgba(138, 136, 228, 0.1); 
+    border-color: rgba(138, 136, 228, 0.4);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
