@@ -6,8 +6,8 @@
 🔗 Репозиторий: https://github.com/kopar89/File_Analyzer <br>
 🐳 Docker-образ: [koparr/file-analyzer:v1.1.2](https://hub.docker.com/layers/koparr/file-analyzer/v1.1.2) <br>
 
-![Главная страница](vmi_1.png) <br>
-![Возможности](vmi_2.png)<br>
+![Главная страница](photo/vmi_1.png) <br>
+![Возможности](photo/vmi_2.png)<br>
 
 ## Возможности
 
@@ -26,7 +26,8 @@
 | Группа | ФИО | Оценка | Предмет |
 |--------|-----|--------|---------|
 
-<br> Пример файла находится в репозитории, students.xlsx
+<br> Пример файла находится в репозитории, students.xlsx <br>
+Также можно посмотреть готовый результат работы платформы в папке uploads <br>
 
 ## Запуск через Docker
 
