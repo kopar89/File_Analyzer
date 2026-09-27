@@ -7,6 +7,7 @@
 🐳 Docker-образ: [koparr/file-analyzer:v1.1.2](https://hub.docker.com/layers/koparr/file-analyzer/v1.1.2) <br>
 
 ![Главная страница](vmi_1.png) <br>
+![Возможности](vmi_2.png)<br>
 
 ## Возможности
 
