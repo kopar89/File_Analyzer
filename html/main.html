@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>VMI Analytics</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/main.css"
+    >
+
+</head>
+
+
+<body>
+
+    <h1 class="hayer">
+        VMI Analytics
+    </h1>
+
+
+    <p class="txt_1">
+
+        Загрузите базу данных или Excel-файл,
+        после чего выберите необходимые
+        аналитические метрики.
+
+    </p>
+
+
+    <div class="buttons">
+
+
+        <form
+            action="/upload_db"
+            method="get"
+            enctype="multipart/form-data"
+        >
+
+            <input
+                type="file"
+                id="bd-file"
+                name="file"
+                accept=".sqlite,.sqlite3,.db3,.db, .sql"
+                hidden
+            >
+
+            <label
+                for="bd-file"
+                class="btn_1"
+            >
+                Data base (Ведутся технические работы)
+            </label>
+
+
+            <button
+                type="submit"
+                class="other"
+            >
+                Загрузить
+            </button>
+
+        </form>
+
+
+
+        <form
+            action="/load_xl"
+            method="post"
+            enctype="multipart/form-data"
+        >
+
+            <input
+                type="file"
+                id="excel-file"
+                name="file"
+                accept=".xlsx,.xls"
+                hidden
+            >
+
+            <label
+                for="excel-file"
+                class="btn_2"
+            >
+                Excel
+            </label>
+
+
+            <button
+                type="submit"
+                class="other"
+            >
+                Загрузить
+            </button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
