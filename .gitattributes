@@ -1,0 +1,6 @@
+*.html linguist-language=html
+*.html linguist-detectable=true
+Dockerfile* linguist-language=Dockerfile
+Dockerfile* linguist-detectable=true
+*.css linguist-language=css
+*.css linguist-detectable=true
