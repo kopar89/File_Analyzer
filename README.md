@@ -2,8 +2,11 @@
 
 Веб-сервис на **FastAPI** для анализа успеваемости студентов из Excel-файлов. Загружаете таблицу с оценками — сервис группирует данные, считает средний балл, находит лучшую группу, строит сводную диаграмму по оценкам и выгружает список должников. Проект находится в активной разработке, функциональность будет пополняться.
 
+🔌 Сайт: https://file-analyzer-jkwi.onrender.com <br>
 🔗 Репозиторий: https://github.com/kopar89/File_Analyzer <br>
-🐳 Docker-образ: [koparr/file-analyzer:v1.1.2](https://hub.docker.com/layers/koparr/file-analyzer/v1.1.2)
+🐳 Docker-образ: [koparr/file-analyzer:v1.1.2](https://hub.docker.com/layers/koparr/file-analyzer/v1.1.2) <br>
+
+![Главная страница](vmi_1.png) <br>
 
 ## Возможности
 
@@ -22,7 +25,9 @@
 | Группа | ФИО | Оценка | Предмет |
 |--------|-----|--------|---------|
 
-## Запуск через Docker (рекомендуется)
+<br> Пример файла находится в репозитории, students.xlsx
+
+## Запуск через Docker
 
 ```bash
 docker pull koparr/file-analyzer:v1.1.2
